@@ -1,8 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: darkslategrey;
+    background-color: rgb(30, 148, 148);
+}
+
+div {
+    width: 70%;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid antiquewhite;
+    border-radius: 25px;
 }
 
 h1, p {
     color: antiquewhite;
+    line-height: 25px;
 }
