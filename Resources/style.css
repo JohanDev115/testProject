@@ -8,14 +8,24 @@ body {
     font-family: cursive;
 }
 
-div {
+.container {
     width: 70%;
     margin: 30px auto;
-    padding: 30px;
-    border-radius: 25px;
-    box-shadow: 4px 4px 6px grey;
+    box-shadow: 10px 10px 5px grey;
 }
 
 h1 {
-    color: lime;
+    color: white;
+    background-color: grey;
+    padding: 10px;
+}
+
+.footer {
+    background-color: gray;
+    padding: 10px;
+    color: white;
+}
+
+.container > p {
+    padding: 0px 15px;
 }
