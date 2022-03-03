@@ -26,6 +26,13 @@ h1 {
     color: white;
 }
 
+.footer2 {
+    background-color: lightseagreen;
+    padding: 10px;
+    color: white;
+    text-align: center;
+} 
+
 .container > p {
     padding: 0px 15px;
 }
